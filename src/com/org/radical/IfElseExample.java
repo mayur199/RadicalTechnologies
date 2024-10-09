@@ -2,7 +2,7 @@ package com.org.radical;
 
 public class IfElseExample {
 	public static void main(String[] args) {
-		int n1 = 10;
+		int n1 = 40;
 		int n2 = 30;
 
 		if (n1 == n2) {
