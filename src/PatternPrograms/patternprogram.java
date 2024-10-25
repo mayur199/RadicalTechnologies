@@ -1,4 +1,4 @@
-package JavaPrograms;
+package PatternPrograms;
 
 public class patternprogram {
 	public static void main(String[] args) {
