@@ -14,8 +14,10 @@ public class IncDecOperator {
 //		System.out.println(a);// 5
 
 		System.out.println(a++);// prints 5 then a becomes 6  
-		System.out.println(a--);// prints 6 then a becomes 5
-		System.out.println(--a);// here a becomes 4 and prints 4
+		System.out.println(a);
+		a =5;
+//		System.out.println(a--);// prints 6 then a becomes 5
+//		System.out.println(--a);// here a becomes 4 and prints 4
 		System.out.println(++a);// a becomes 5 and prints 5
 
 //		int x = 10;
