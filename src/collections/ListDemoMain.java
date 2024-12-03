@@ -16,6 +16,12 @@ public class ListDemoMain {
 		demo.addBookToLibrary("Science Fundamentals", "Some Author", "Science");
 		demo.addBookToLibrary("Chemistry Fundamentals", "Some Another Author", "Chemistry");
 
+		System.out.println("Books before sorting:");
+		demo.displayAllBooks();
+		
+		demo.sortBooksByAuthor();
+		
+		System.out.println("\nBooks after sorting by author:");
 		demo.displayAllBooks();
 
 		//
@@ -54,7 +60,6 @@ public class ListDemoMain {
 		Book book = new Book("Maths Fundamentals", "R D Sharma", "Maths");
 		System.out.println(demo.isBookAvailable(book));
 
-		
 //		Book book1 = new Book("ABCD", "XYZ", "MNOP");
 //		Book book2 = new Book("ABCD", "XYZ", "MNOP");
 //		Book book2 = book1;
