@@ -1,4 +1,0 @@
-MyStudent [rollNo=1, name=Aditya, class=10, section=A, scores=[mathsScores=80.0, physicsScores=75.0, chemistryScores=85.0, englishScores=70.0]]
-MyStudent [rollNo=2, name=Mayur, class=11, section=C, scores=[mathsScores=85.0, physicsScores=70.0, chemistryScores=88.0, englishScores=72.0]]
-MyStudent [rollNo=3, name=Siddhant, class=12, section=B, scores=[mathsScores=85.0, physicsScores=76.0, chemistryScores=91.0, englishScores=80.0]]
-MyStudent [rollNo=4, name=ABCD, class=8, section=D, scores=null]

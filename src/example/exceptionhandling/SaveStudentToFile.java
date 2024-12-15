@@ -1,8 +1,10 @@
 package example.exceptionhandling;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 
 public class SaveStudentToFile {
 
@@ -28,6 +30,27 @@ public class SaveStudentToFile {
 			}
 		}
 	}
+	
+	public void saveToFile(MyStudent student) throws MyCustomException {
+		ObjectOutputStream oos = null;
+		try {
+			File file = new File("C:\\Mayur\\dev\\RadicalTechnologiesJava\\src\\example\\exceptionhandling\\MyStudentObject.ser");
+			oos = new ObjectOutputStream(new FileOutputStream(file));
+			oos.writeObject(student);
+		} catch (IOException e) {
+			e.printStackTrace();
+			System.out.println("IOException thrown in saveToFile method");
+			throw new MyCustomException(e.getMessage());
+		} finally {
+			if (oos != null) {
+				try {
+					oos.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+		}
+	}
 
 }
-	

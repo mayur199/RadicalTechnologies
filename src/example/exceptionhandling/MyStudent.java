@@ -1,6 +1,10 @@
 package example.exceptionhandling;
 
-public class MyStudent {
+import java.io.Serializable;
+
+public class MyStudent implements Serializable {
+
+	private static final long serialVersionUID = -8302380778953759460L;
 
 	private int rollNo;
 
@@ -10,7 +14,7 @@ public class MyStudent {
 
 	private char section;
 
-	private Scores scores;
+	private transient Scores scores;
 
 	public MyStudent(int rollNo, String name, int clazz, char section) {
 		super();
