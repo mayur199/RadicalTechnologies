@@ -1,0 +1,2 @@
+This is an example using PrintWriter.
+Writing data line by line is easy.
