@@ -1,6 +1,7 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
@@ -9,8 +10,10 @@ import example.exceptionhandling.MyCustomException;
 
 public class ListDemo {
 
-	private List<Book> library = new ArrayList<Book>();
-//	private List<Book> library = new LinkedList<Book>();
+//	private List<Book> library = new ArrayList<Book>();
+	private List<Book> library = new LinkedList<Book>();
+
+//	private List<Integer> listOfNumber = new ArrayList<Integer>();
 
 	public void addBookToLibrary(String name, String author, String subject) {
 		library.add(new Book(name, author, subject));
@@ -70,12 +73,16 @@ public class ListDemo {
 		return library.contains(book);
 	}
 
+	public void arrangeAllBooks() {
+		Collections.sort(library);
+	}
+
 	public void sortBooksByAuthor() {
 		library.sort(new Comparator<Book>() {
 
 			@Override
 			public int compare(Book b1, Book b2) {
-				return b1.getAuthor().compareTo(b2.getAuthor());
+				return b2.getAuthor().compareTo(b1.getAuthor());
 			}
 
 		});
