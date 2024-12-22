@@ -1,12 +1,28 @@
 package interfaceexample;
 
+import java.util.Scanner;
+
 public class MainClass {
 	public static void main(String[] args) {
-		Vehicle myCar = new Car(); // Car object
-		Vehicle myBike = new Bike(); // Bike object
 
-		myCar.start(); // Output: Car starts with a key.
-		myBike.start(); // Output: Bike starts with a button.
+		System.out.println("press 1 for car");
+		System.out.println("press 2 for bike");
+
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		Vehicle v = selectVehicle(n);
+
+		v.start();
+	}
+
+	private static Vehicle selectVehicle(int num) {
+
+		if (num == 1) {
+			return new Car();
+		} else {
+			return new Bike();
+		}
+
 	}
 
 }
