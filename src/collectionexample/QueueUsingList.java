@@ -45,6 +45,7 @@ public class QueueUsingList {
 
 	public static void main(String[] args) {
 		QueueUsingList queue = new QueueUsingList();
+		// Display initial queue
 
 		// Enqueue items and display the queue
 		queue.enqueue("Apple");
