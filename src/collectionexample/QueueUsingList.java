@@ -6,7 +6,9 @@ import java.util.List;
 public class QueueUsingList {
 
 	private List<String> queueList = new ArrayList<>();
-    //Feature 1 implemented aaa akash
+    //Feature 1 implemented - abc
+	// Feature 2 implemented - xyz
+	// Feature 3 implemented - pqr
 	public void enqueue(String item) {
 		queueList.add(item);
 		System.out.println(item + " added to the queue.");
@@ -21,7 +23,7 @@ public class QueueUsingList {
 		System.out.println(item + " removed from the queue.");
 		return item;
 	}
-//awesome now ther is merge problem
+
 	public String peek() {
 		if (queueList.isEmpty()) {
 			System.out.println("Queue is empty!");
@@ -39,6 +41,7 @@ public class QueueUsingList {
 		}
 	}
 
+	//Implement
 	public static void main(String[] args) {
 		QueueUsingList queue = new QueueUsingList();
 
