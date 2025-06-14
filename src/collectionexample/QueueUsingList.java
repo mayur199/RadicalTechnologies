@@ -21,7 +21,7 @@ public class QueueUsingList {
 		System.out.println(item + " removed from the queue.");
 		return item;
 	}
-
+//awesome now ther is merge problem
 	public String peek() {
 		if (queueList.isEmpty()) {
 			System.out.println("Queue is empty!");
