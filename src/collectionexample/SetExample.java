@@ -6,6 +6,7 @@ import java.util.List;
 import collections.Book;
 import example.exceptionhandling.MyCustomException;
 
+// A simple Set implementation using ArrayList
 public class SetExample {
 
 	private List<Book> bookSet = new ArrayList<>();
