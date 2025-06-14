@@ -7,7 +7,7 @@ import collections.Book;
 import example.exceptionhandling.MyCustomException;
 
 public class QueueExample {
-
+	// A simple queue implementation using ArrayList
 	private List<Book> bookQueue = new ArrayList<>();
 
 	public void enqueue(Book book) {

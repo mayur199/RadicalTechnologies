@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import collections.Book;
 import example.exceptionhandling.MyCustomException;
-
+// A simple Stack implementation using ArrayList
 public class StackExample {
 
 	private List<Book> bookStack = new ArrayList<>();
