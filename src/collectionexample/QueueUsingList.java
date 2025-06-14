@@ -6,7 +6,7 @@ import java.util.List;
 public class QueueUsingList {
 
 	private List<String> queueList = new ArrayList<>();
-    //Feature 1 implemented aaa akash
+    //Feature 1 implemented akash
 	public void enqueue(String item) {
 		queueList.add(item);
 		System.out.println(item + " added to the queue.");
