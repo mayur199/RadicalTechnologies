@@ -6,9 +6,10 @@ import java.util.List;
 public class QueueUsingList {
 
 	private List<String> queueList = new ArrayList<>();
-    //Feature 1 implemented - abc
+    //Feature 1 implemented - abc akash
 	// Feature 2 implemented - xyz
 	// Feature 3 implemented - pqr
+	
 	public void enqueue(String item) {
 		queueList.add(item);
 		System.out.println(item + " added to the queue.");
