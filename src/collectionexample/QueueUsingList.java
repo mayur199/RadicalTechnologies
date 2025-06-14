@@ -7,7 +7,7 @@ public class QueueUsingList {
 
 	private List<String> queueList = new ArrayList<>();
     //Feature 1 implemented - abc akash
-	// Feature 2 implemented - xyz
+	// Feature 2 implemented - xyz aakash
 	// Feature 3 implemented - pqr
 	
 	public void enqueue(String item) {
