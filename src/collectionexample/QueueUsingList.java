@@ -42,7 +42,7 @@ public class QueueUsingList {
 		}
 	}
 
-	//Implement sd
+	//Implement
 	public static void main(String[] args) {
 		QueueUsingList queue = new QueueUsingList();
 
