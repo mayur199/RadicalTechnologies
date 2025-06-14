@@ -42,7 +42,8 @@ public class QueueUsingList {
 		}
 	}
 
-	//Implement
+	// Feature 4 implemented - xyz aakash
+	//Implement  main method to test the queue functionality
 	public static void main(String[] args) {
 		QueueUsingList queue = new QueueUsingList();
 
