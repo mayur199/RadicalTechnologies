@@ -42,7 +42,7 @@ public class QueueUsingList {
 		}
 	}
 
-	//Implement
+	//Implement  main method to test the queue functionality
 	public static void main(String[] args) {
 		QueueUsingList queue = new QueueUsingList();
 
